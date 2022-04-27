@@ -1,5 +1,7 @@
 ﻿using System;
 
+using R5T.T0064;
+
 
 namespace R5T.Megara.Default
 {
@@ -9,7 +11,8 @@ namespace R5T.Megara.Default
     /// NOTE: Do not add this class to a DI-container as an <see cref="IFileSerializer{T}"/> since it will cause an infinite recursion.
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public class FileSerializerBasedFileSerializer<T> : IFileSerializer<T>
+    [ServiceImplementationMarker]
+    public class FileSerializerBasedFileSerializer<T> : IFileSerializer<T>, IServiceImplementation
     {
         private IFileSerializer<T> FileSerializer { get; }
 

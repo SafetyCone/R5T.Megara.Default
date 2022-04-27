@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Megara.Default.Construc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Megara.Default.Testing", "R5T.Megara.Default.Testing\R5T.Megara.Default.Testing.csproj", "{06BFB477-AAFC-42DE-9A91-43CDC81A25F7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{4A89C114-FD76-441A-AAFE-530EAB4A714E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{AD73309E-2137-4581-A0C5-BAE2942F34B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{06BFB477-AAFC-42DE-9A91-43CDC81A25F7}.Release|x64.Build.0 = Release|Any CPU
 		{06BFB477-AAFC-42DE-9A91-43CDC81A25F7}.Release|x86.ActiveCfg = Release|Any CPU
 		{06BFB477-AAFC-42DE-9A91-43CDC81A25F7}.Release|x86.Build.0 = Release|Any CPU
+		{AD73309E-2137-4581-A0C5-BAE2942F34B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD73309E-2137-4581-A0C5-BAE2942F34B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD73309E-2137-4581-A0C5-BAE2942F34B7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AD73309E-2137-4581-A0C5-BAE2942F34B7}.Debug|x64.Build.0 = Debug|Any CPU
+		{AD73309E-2137-4581-A0C5-BAE2942F34B7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AD73309E-2137-4581-A0C5-BAE2942F34B7}.Debug|x86.Build.0 = Debug|Any CPU
+		{AD73309E-2137-4581-A0C5-BAE2942F34B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD73309E-2137-4581-A0C5-BAE2942F34B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD73309E-2137-4581-A0C5-BAE2942F34B7}.Release|x64.ActiveCfg = Release|Any CPU
+		{AD73309E-2137-4581-A0C5-BAE2942F34B7}.Release|x64.Build.0 = Release|Any CPU
+		{AD73309E-2137-4581-A0C5-BAE2942F34B7}.Release|x86.ActiveCfg = Release|Any CPU
+		{AD73309E-2137-4581-A0C5-BAE2942F34B7}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD73309E-2137-4581-A0C5-BAE2942F34B7} = {4A89C114-FD76-441A-AAFE-530EAB4A714E}
 	EndGlobalSection
 EndGlobal
